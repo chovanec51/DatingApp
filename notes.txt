@@ -1,0 +1,10 @@
+Entity framework - is an Object Relational Mapper (ORM). It's job is to translate our code
+    into SQL commands that update our tables in the db.
+    We add entity framework by adding an important class that derives from the DB context class. This
+    class acts as a bridge between our domain(entity classes) and our db. It is a primary class we use
+    for interacting with our db.
+    We will write link queries that will be translated into SQL commands.
+
+Entity class - class that represents a table in the db.
+
+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
