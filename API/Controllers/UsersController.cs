@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 namespace API.Controllers;
 
 [ApiController]
-[Route("api/[controller]")] // https://localhost:5001/api/users
+[Route("api/[controller]")]     //https://localhost:5001/api/users
 public class UsersController : ControllerBase
 {
     private readonly DataContext _context;
